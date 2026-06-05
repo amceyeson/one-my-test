@@ -2,6 +2,7 @@
 # Configure the Microsoft Azure provider
 provider "azurerm" {
   features {}
+  subscription="xxxx-yyyy-zzzz-tttt"
 }
 
 # Create a Resource Group if it doesn’t exist
